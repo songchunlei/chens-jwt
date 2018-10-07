@@ -1,0 +1,13 @@
+#项目启动端口
+server:
+  port: 8103
+
+# jwt相关的配置
+token:
+  jwt:
+    key: a123456789
+    # 发放者
+    iss: chens-auth-server
+    # 有效期120分钟
+    expm: 120
+    userheader: Authorization
